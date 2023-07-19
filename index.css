@@ -41,6 +41,13 @@ input::-webkit-inner-spin-button {
     background: #6943FF;
 }
 
+
+@media only screen and (max-width: 600px) {
+  .display--units {
+    background-color: #87ceeb;
+  }
+}
+
 h1{
     font-size: 1.5em;
     color: white;
