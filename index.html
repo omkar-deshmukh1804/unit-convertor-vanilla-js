@@ -1,0 +1,50 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        
+        <div class="main">
+            <div class="display--units">
+                <div class="error--message">Please enter numeric values.</div>
+                <h1>Metric/Imperial Unit Conversion</h1>
+                <input type="text" class="numeric--input"/>
+                <button class="convert--btn">Convert</button>
+            </div>
+            
+            <div class="display--conversion">
+                <div class="convert--card1"> 
+                    <p class="convert--heading1">Length (Meter/Feet)</p>
+                    <p class="convert--text1">meters =  feet |  feet =  meters</p>
+                </div> 
+                <div class="convert--card2"> 
+                    <p class="convert--heading2">Volume (Liters/Gallons)</p>
+                    <p class="convert--text2">liters =  gallons |  gallons =  liters</p>
+                </div>
+                
+                <div class="convert--card3"> 
+                    <p class="convert--heading3">Mass (Kilograms/Pounds)</p>
+                    <p class="convert--text3">kilos =  pounds |  pounds =  kilos</p>
+                </div>
+        </div>
+        
+        <footer class="footer--container">
+            <div class="mode-container">
+                <input type="checkbox" class="checkbox" id="checkbox">
+                <label for="checkbox" class="label" id="check-label">
+                    <i class="fas fa-moon"></i>
+                    <i class='fas fa-sun'></i>
+                    <div class='ball'>
+                </label>
+            </div>
+        </footer> 
+        
+        <script src="index.js"></script>
+    </body>
+</html>
