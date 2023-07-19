@@ -24,7 +24,8 @@ const subHeading2El = document.querySelector(".convert--text2")
 const subHeading3El = document.querySelector(".convert--text3")
 const authorEl = document.querySelector(".author--name")
 
-modeBtn.addEventListener("click", function(){
+modeBtn.addEventListener("click", function () {
+    console.log("event working fine")
     displayConEl.classList.toggle("dark--mode--bgc1")
     card1El.classList.toggle("dark--mode--bgc2")
     card2El.classList.toggle("dark--mode--bgc2")
